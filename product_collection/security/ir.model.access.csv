@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_product_collection_user,access_product_collection_user,model_product_collection,base.group_user,1,0,0,0
+access_product_collection_manager,access_product_collection_manager,model_product_collection,base.group_system,1,1,1,1
+access_add_product_collection_wizard,access_add_product_collection_wizard,model_add_product_collection_wizard,base.group_user,1,1,1,0

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <record id="add_product_collection_wizard_form" model="ir.ui.view">
+        <field name="name">add.product.collection.wizard.form</field>
+        <field name="model">add.product.collection.wizard</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="collection_id"/>
+                        <field name="product_ids">
+                            <tree>
+                                <field name="default_code"/>
+                                <field name="name"/>
+                                <field name="categ_id"/>
+                            </tree>
+                        </field>
+                    </group>
+                </sheet>
+                <footer>
+                    <button class="btn-primary" type="object"
+                            name="save" string="add product to collection"/>
+                    <button class="btn-default" special="cancel" string="Cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+</odoo>
