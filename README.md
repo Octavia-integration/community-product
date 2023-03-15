@@ -1,3 +1,3 @@
 # community-product
 
-Repository for technical community modules
+Repository for product community modules
