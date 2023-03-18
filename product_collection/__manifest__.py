@@ -20,6 +20,6 @@
         "security/ir.model.access.csv",
         "wizard/add_product_collection_wizard_views.xml",
     ],
-    "installable": True,
+    "installable": False,
     "application": False,
 }
